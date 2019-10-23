@@ -1,0 +1,33 @@
+body {
+	background-color: #06173D;
+	margin: 0 auto;
+	width: 60%;
+	font-family: "arial";
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+}
+
+h1 {
+	text-align: center;
+	color: #071633;
+}
+
+
+#main {
+	display: flex;
+    justify-content: center;
+	flex-direction: column;
+	background-color: white;
+	padding: 20px;
+}
+
+#main div {
+	padding: 10px;
+	font-size: 20px;
+}

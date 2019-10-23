@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="css/styles.css"> </link>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+  <script src="js/scripts.js"></script>
+
+
+  <div id="main">
+    <img src="logo.png">
+    <h3>Please select individual user to display their to-do's or select all to display all users to-do's</h3>
+
+            <form action="" method="get">
+              <select name="q">
+                <option value="all">All </option>
+                <option value="1">1 </option>
+                <option value="2">2 </option>
+                <option value="3">3 </option>
+                <option value="4">4 </option>
+                <option value="5">5 </option>
+                <option value="6">6 </option>
+                <option value="7">7 </option>
+                <option value="8">8 </option>
+                <option value="9">9 </option>
+                <option value="10">10 </option>
+              </select>
+          <input type="Submit">
+        </form>
+
+
+    <b><div id = "user"></div></b>
+    <div id="total">Total:</div>
+   <div id="completed">Completed:</div>
+	  <div id="thetable">
+      <table id="table">
+        <thead>
+      <tr>
+        <th>ID</th>
+        <th>Title</th>
+      </tr></thead>
+    </table>
+  </div>
+
+  </div>
+
+</body>
+</html>
