@@ -12,7 +12,10 @@ $(function getUrlVars() {
 // CALLS FUNCTION DEPENDING ON FORM URL PARAM
 			if(vars == "all"){
 				allUsers();
-			}else{
+			}if (Object.keys(vars).length == 0){
+				allUsers();
+			}
+			else{
 				singleUsers(vars);
 			}
 
